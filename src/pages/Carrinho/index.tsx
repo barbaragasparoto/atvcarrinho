@@ -16,22 +16,22 @@ export default function Carrinho() {
 
    <View style={estilos.loja}>
         <Image style= {estilos.produto} source= {anel}/>   
-        <Text style={estilos.nomeSapato}>Anel Solitário</Text>
+        <Text style={estilos.nomeProduto}>Anel Solitário</Text>
+        
    </View>
-
    <Text style={estilos.descricao}>Anel Solitário cravejado com zircônia cristais. Modelo Pandora, joia em prata 925 </Text>
-   
    <Text style={estilos.preco}>R$ 420,00 </Text>
-
    </View>
    </>
 }
 
+
+
 const estilos = StyleSheet.create({
     topo: {
-        marginTop: 40,
-        width: "100%",
-        height: 578/768 * width
+        marginTop: 50,
+        width: "100%",   
+        height: 400/1100 * width
     },
     titulo: {
         width: "100%",
@@ -60,10 +60,10 @@ const estilos = StyleSheet.create({
         paddingVertical: 12
     },
     produto:{
-        width: 32,
-        height: 32
+        width: 150,
+        height: 150
     },
-    nomeSapato: {
+    nomeProduto: {
         fontSize: 16,
         fontFamily: "MontserratBold",
         lineHeight: 26,
